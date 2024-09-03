@@ -1,0 +1,51 @@
+body{ 
+    background-color: rgb(196, 196, 196); 
+}
+
+.bigBox{
+    border-radius: 12px;
+    margin-top: 12
+    px;
+    background-image: linear-gradient(rgb(70, 4, 101), rgb(142, 6, 142)) ; 
+}
+
+.smallBox{
+    margin: 0px 24px 0px 24px;
+    padding: 0px 24px 0px 24px;
+    border-radius: 12px;
+    background-image: linear-gradient(rgb(142, 6, 142), rgb(70, 4, 101));
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(221, 198, 70);
+    text-align: center;
+}  
+
+.card{
+    border-radius: 12px;
+    background-image: linear-gradient(rgb(66, 66, 177), rgb(106, 106, 210));
+
+}
+
+p{
+    padding: 10px 0px 0px 0px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+object{
+    align-items: center;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 6px;
+}
