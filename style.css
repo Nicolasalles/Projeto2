@@ -4,8 +4,8 @@ body{
 
 .bigBox{
     border-radius: 12px;
-    margin-top: 12
-    px;
+    margin: 0% 15% 0% 15%;
+    padding: 0px 12px 0px 12px ;
     background-image: linear-gradient(rgb(70, 4, 101), rgb(142, 6, 142)) ; 
 }
 
@@ -16,6 +16,16 @@ body{
     background-image: linear-gradient(rgb(142, 6, 142), rgb(70, 4, 101));
 }
 
+.txtAlgn{
+    display: flex;
+    flex-direction: column;
+}
+.flexCntnr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .titulo{
     font-size: 24px;
     font-weight: bold;
@@ -24,9 +34,20 @@ body{
 }  
 
 .card{
+    padding: 0px 0px 6px 0px;
     border-radius: 12px;
     background-image: linear-gradient(rgb(66, 66, 177), rgb(106, 106, 210));
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: rgb(35, 35, 114);
+    border-width: 6px;
+}
 
+input{
+    border-radius: 4px;
+    width: 60%;
+    align-self: center;
 }
 
 p{
@@ -43,7 +64,7 @@ object{
 button{
     width: 80px;
     height: 40px;
-    align-items: center;
+    align-self: center;
     color: white;
     font-size: 14px;
     background-color: black;
